@@ -1,0 +1,263 @@
+ *{
+     margin: 0;
+     padding:0;
+ }
+
+ body{
+     font-family:sans-serif;
+ }
+
+ #nav-bar{
+     position: sticky;
+     z-index:10;
+     top:0;
+ }
+
+  .navbar{
+    
+      background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+      padding:0 0 0 10px !important;
+  }
+
+
+   
+  .navbar-brand {
+    font-size: 30px;
+    color:white !important;
+    
+  }
+
+  .navbar-nav li{
+      padding:0px 10px;
+  }
+
+    .navbar-nav li a{
+      color:white !important;
+      font-weight: bolder;
+      float:right;
+      text-align: left;
+  }
+
+  .nav-icon{
+      color:white;
+      font-size:30px  !important;
+  }
+
+  .navbar-toggler{
+      outline:none !important;
+  }
+
+
+
+  /*---------bannnr start------*/
+
+  #banner{
+      background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+  }
+
+  .promo-title{
+       font-size:40px;
+       font-weight: 600;
+       margin-top:100px;
+  }
+  .btn-play{
+      color:white;
+      margin:20px;
+  }
+
+  #banner a{
+      color:white;
+      text-decoration: none;
+  }
+
+  .bottom-img{
+      width:100%;
+  }
+
+  /*------servses start-------*/
+
+  #serveses{
+      padding:80px 0;
+  }
+
+  .serveses-img{
+      width:150px;
+      margin-top: 20px;
+  }
+
+  .services{
+      padding:20px;
+      
+  }
+
+    .services h5{
+        padding:5px;
+        margin-top:25px;
+        text-transform: uppercase;
+        
+    }
+
+    .title::before{
+        content: '';
+        background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+        width:200px;
+        height:5px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        transform:translateY(63px);
+    }
+
+    .title::after{
+        content: '';
+        background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+        width:50px;
+        height:10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:40px;
+        display:block;
+        transform:translateY(8px);
+    }
+
+    #serveses .btn-primary{
+        box-shadow: none;
+        padding:8px 25px;
+        border:none;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+    }
+
+    /*---------about us start-----------*/
+
+    #about-us{
+        background:#f8f9fa;
+        padding-bottom:50px;
+        padding-top:50px;
+    }
+
+    
+
+    .about-title{
+        font-size:40px;
+        font-weight: 600;
+        margin-top: 8% ;
+        margin-left: 50px;
+    }
+ 
+
+    #about-us ul{
+      margin-left:50px;
+    }
+
+
+   #about-us ul li{
+       margin:10px 0px;
+       list-style-type: none;
+   }
+
+
+   /*---------testomonial start----------*/
+
+   .testimonial{
+       border-left:4px solid #7b1798;
+       margin:50px 30px;
+      
+   }
+
+   .testimonial img{
+       width:60px;
+       height:60px;
+       border-radius: 50%;
+       margin:0 5px;
+   }
+
+   .user-details{
+       display:inline-block;
+       font-size:12px;
+   }
+
+   /*---------social media ----------*/
+
+   #social-media{
+       background:#f8f9fa;
+       padding:100px 0;
+
+   }
+
+   #social-media p{
+       font-size:36px;
+       font-weight: 600;
+       margin-bottom: 30px;
+   }
+
+   .social-icon a{
+       color:rgb(38, 173, 33);
+       width:60px;
+       transition:0.4s;
+   }
+
+   .social-icon a:hover i{
+       transform:translateY(-10px);
+   }
+
+   /*-----------footer section---------*/
+   #footer{
+    background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+   }
+
+   .footer-img{
+       width:100%;
+   }
+
+   .footer-box{
+       padding:20px;
+       color:white;
+   }
+
+   .footer-box a{
+       margin-top:20px ;
+       color:cornsilk;
+       text-decoration: none;
+       
+   }
+
+   
+
+   .footer-box .fa{
+       margin-right:8px;
+       height:40px;
+       width:40px;
+       text-align: center;
+       padding-top: 7px;
+       border-radius: 2px;
+       
+       background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+
+   }
+
+   .footer-box .form-control{
+       box-shadow: none !important;
+       border:none;
+       border-radius: 0;
+       margin-top: 25px;
+       max-width:250px;
+   }
+
+   .footer-box .btn-primary{
+    box-shadow: none !important;
+    border:none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba,rgba(106, 26, 138, 0.993));
+   }
+   .copy-right{
+       text-align: center;
+       color:cornsilk;
+       padding:10px;
+       font-family: initial;
+   }
+
+   hr{
+       background-color:white;
+   }
